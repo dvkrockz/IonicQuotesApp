@@ -1,6 +1,6 @@
 import { LibraryPage } from './../pages/library/library';
 import { FavoritesPage } from './../pages/favorites/favorites';
-import { TabsPage } from './../pages/tabs/tabs';
+// import { TabsPage } from './../pages/tabs/tabs';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -12,7 +12,7 @@ import { MyApp } from './app.component';
 @NgModule({
   declarations: [
     MyApp,
-    TabsPage,
+    // TabsPage,
     FavoritesPage,
     LibraryPage
   ],
@@ -23,7 +23,7 @@ import { MyApp } from './app.component';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    TabsPage,
+    // TabsPage,
     FavoritesPage,
     LibraryPage
   ],

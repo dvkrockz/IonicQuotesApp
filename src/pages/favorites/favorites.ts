@@ -1,3 +1,5 @@
+import { LibraryPage } from './../library/library';
+// import { Library } from './../library/library';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -22,4 +24,7 @@ export class FavoritesPage {
     console.log('ionViewDidLoad FavoritesPage');
   }
 
+  navigateToLibrary(){
+    this.navCtrl.push(LibraryPage);
+  }
 }
